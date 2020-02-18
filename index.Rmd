@@ -1,0 +1,82 @@
+--- 
+title: "Geometría analítica"
+author: "Ricardo Michel MALLQUI BAÑOS"
+institute: "Universidad Nacional San Cristóbal De Huamanga"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: report
+fontsize: 12pt
+bibliography: [book.bib]
+biblio-style: apalike
+link-citations: yes
+subparagraph: yes
+description: "Tópicos de geometría analítica"
+---
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\I}{\mathbb{I}}
+\newcommand{\f}{\mathbb{f}}
+\newcommand{\X}{\mathbb{X}}
+\newcommand{\D}{\mathbb{D}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\norm}[1]{\left\Vert#1\right\Vert}
+\newcommand{\abs}[1]{\left\vert#1\right\vert}
+\newcommand{\set}[1]{\left\{#1\right\}}
+\newcommand{\seq}[1]{\left<#1\right>}
+\newcommand{\co}[1]{\left[#1\right]}
+\newcommand{\cc}[1]{\left(#1\right)}
+\newcommand{\J}{\mathcal{J}}
+\newcommand{\K}{\mathcal{K}}
+\newcommand{\M}{\mathcal{M}}
+\newcommand{\F}{\mathcal{F}}
+
+# Prerequisitos
+
+## Ingresar imagen
+Generar pdf y svg en inskape(ajustar Shift+Ctrl+R) o relativos luego se debe guardar en el mismo directorio general luego se usa el entorno `ff fff`
+\[\prod_1^2\]
+### Vector
+
+\[\vec{w}\]
+
+### Recta
+See Theorem \@ref(thm:boring) 
+
+```{r pressure2, echo=FALSE, fig.cap="ww", fig.align="center"}
+knitr::include_graphics("inverse.svg")
+```
+Here is my theorem.
+Here is my theorem.
+
+```{theorem, boring}
+Here is my theorem. Here is my theorem.
+ Here is my theorem.
+Here is my theorem.
+Here is my theorem.
+Here is my theorem.
+Here is my theorem.
+```
+
+sea Here is my theorem.
+Here is my theorem.
+Here is my theorem.
+Here is my theorem.
+Here is my theorem.
+
+
+```{definition, name="ww"}
+Sea la siguiente formula Here is my theorem.
+ Here is my theorem.
+Here is my theorem.
+Here is my theorem.
+Here is my theorem.
+```
+
+```{r pressure1, echo=FALSE, fig.cap="ww", fig.align="center",out.width = "20%"}
+knitr::include_graphics("U.svg")
+```
+Here is my theorem.
+Here is my theorem.
+Here is my theorem.
