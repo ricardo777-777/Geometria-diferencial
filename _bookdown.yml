@@ -1,5 +1,5 @@
 output_dir: "docs"
-book_filename: "geometría"
+book_filename: "Geometría diferencial"
 delete_merged_file: true
 language:
   label:
